@@ -1,4 +1,4 @@
-# CoinPort
+# ChainDock
 
 A minimal, fast crypto wallet UI to manage ETH, SOL, and BTC from the browser. Import/create a 12‑word mnemonic, view balances, and send transactions with a clean, responsive UI.
 
@@ -51,16 +51,9 @@ my-project/
 npm install
 ```
 
-2) Create an `.env` in project root
-```bash
-VITE_ETH_RPC_URL=https://your-eth-rpc-url
-VITE_SOL_RPC_URL=https://your-sol-rpc-url
-# Optional if you later add a keyed BTC provider:
-# VITE_BTC_API_URL=...
-# VITE_BTC_API_TOKEN=...
-```
 
-3) Start dev server
+
+2) Start dev server
 ```bash
 npm run dev
 ```
